@@ -1,0 +1,91 @@
+
+body{
+  background-color: rgb(30, 0, 77);
+  font-family: 'Tajawal', sans-serif;
+}
+
+.center-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+.header{
+  width: 100%;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header h1{
+  display: inline;
+  
+}
+.btn{
+  float: right;
+  background-color: white;
+  color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border:none;
+  font-size: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.task-table{
+  background-color: rgb(239, 239, 239);
+  width: 60%;
+  margin-top: 130px;
+}
+#tasks{
+  padding: 2%;
+}
+.task1{
+  background-color: white;
+  display: flex;
+  padding: 6px;
+  border-bottom: 2px solid black;
+  transition:box-shadow 0.9s;
+}
+.done{
+  background-color: rgb(39, 227, 39);
+}
+.task1:hover{
+  border-bottom: 2px solid purple;
+}
+.task1:hover{
+  box-shadow: 0px 8px 15px rgba(0.5, 0.4, 0.4, 0.5);
+}
+.task-info{
+  width: 70%;
+  direction: rtl;
+}
+.task-info h2{
+  word-wrap: break-word;
+  max-width: 25ch;
+}
+.task-action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.btn1 {
+  background-color: rgb(114, 0, 0);
+}
+.task-action :nth-child(2){
+  background-color: green;
+}
+#btn2{
+  background-color: red;
+}
+.task-action :nth-child(3){
+  background-color: blue;
+}
+#icon{
+  color: black;
+}
